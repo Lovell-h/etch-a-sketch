@@ -1,1 +1,21 @@
-.h1 {color:blue}
+h1 {color:darkgrey}
+body{background-color:red}
+.container {
+  display:flex;
+  flex-wrap: wrap;
+  width: 640px; 
+  height: 640px; 
+  border: 2px solid #black;
+}
+
+.content-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.grid-Item {
+  background-color: lightgray;
+  border: 1px solid black;
+  box-sizing: border-box; 
+}

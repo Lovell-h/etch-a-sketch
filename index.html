@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="etch.js" defer></script>
-    <script src="etch.css"</script>
+    <link rel="stylesheet" href="etch.css">
     <title>Etch-A-Sketch</title>
 </head>
 <body>
-    <h1>Etch-A-Sketch</h1>
+    <div class="content-wrapper">
+        <h1>Etch-A-Sketch</h1>
+        <h2 id="gridSizeText"></h2>
+        <p>Choose Grid Size</p>
+        <div>
+            <button id="chooseColor" value="black">Change Color to Random</button>                   
+            <button id="clearForm">Reset</button>
+        </div>
+        <input id="gridSizer" type="range" min="10" max="64" value="16">
+        <div class="container"></div>
+    </div>
 </body>
 </html>
